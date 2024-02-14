@@ -1,0 +1,539 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: #415a77;
+  height: 70px;
+}
+.Big-Duck {
+  background-color: #778da9;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 2px 2px;
+  margin-top: 1745px;
+  width: placeholder;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header {
+  background-color: #0d1b2a;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 99.9%;
+  z-index: 1;
+  box-shadow: 0px 0px 2px 2px;
+}
+.a {
+  color: white;
+  font-size: 16;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.a:hover {
+  font-size: 120%;
+}
+.logo {
+  width: 35px;
+  height: 30px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border: none;
+}
+.logo:hover:hover {
+  border-radius: 5px;
+}
+.logos {
+  width: 25px;
+  height: 25px;
+  margin-right: 7px;
+}
+.title-welcome {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0px 10px black;
+}
+.welcome-message {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 49px;
+  text-shadow: 4px 4px 0px black;
+}
+.bosscontainer {
+  background-color: #0d1b2a;
+  background-image: url(img/welcome.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 1100px;
+  height: 550px;
+  margin-top: 400px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bosscontainer2 {
+  background-color: #0d1b2a;
+  background-image: url(img/aoubt_usa.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 1100px;
+  height: 550px;
+  margin-top: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bosscontainer3 {
+  background-color: #0d1b2a;
+  background-image: url(img/contact-us.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 1100px;
+  height: 550px;
+  margin-top: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-about-us {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0px 10px black;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.box1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 440px;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+}
+.box1:hover {
+  width: 450px;
+  height: 310px;
+}
+.box2 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: placeholder;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 440px;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+}
+.box2:hover {
+  width: 450px;
+  height: 310px;
+}
+.boxContact {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 440px;
+  height: 320px;
+  justify-content: center;
+  position: relative;
+}
+.boxContact:hover {
+  width: 450px;
+  height: 330px;
+}
+.boxContact2 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 440px;
+  height: 320px;
+  justify-content: center;
+  position: relative;
+}
+.boxContact2:hover {
+  width: 450px;
+  height: 330px;
+}
+.h333 {
+  margin: 0px;
+}
+.inputfield {
+  width: 300px;
+  height: 25px;
+  background-color: #0d1b2a;
+  color: white;
+  border: 2px solid white;
+}
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  backdrop-filter: blur(50%);
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+.bosscontainer4 {
+  background-color: #0d1b2a;
+  background-image: url(img/brain.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 1100px;
+  height: 550px;
+  margin-top: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-Skills {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: 0px 10px black;
+}
+.mini-title-Skills {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: white;
+  text-shadow: 0px 10px black;
+}
+.Skill-box1 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 150px;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+}
+.Skill-box2 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 150px;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+}
+.Skill-box3 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 150px;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+}
+.Skill-box4 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 150px;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+}
+.Skill-box5 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  width: 150px;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+}
+.Skill-logo {
+  max-width: 140px;
+  max-height: 200px;
+}
+.Skill-logo-JS {
+  width: 125px;
+  height: auto;
+}
+.Skill-logo-PP {
+  width: 190px;
+  height: auto;
+}
+.extra {
+  font-size: 15px;
+  margin: 0px;
+}
+.bottom-logo {
+  position: relative;
+  right: 300px;
+  height: 200px;
+  width: 300px;
+}
+.bottom-icon {
+  width: 25px;
+  height: 25px;
+}
+.bottom-a {
+  color: white;
+  font-size: 16;
+  text-decoration: none;
+  margin-right: 7px;
+}
+.bottom-a:hover {
+  font-size: 120%;
+}
+.disclaimer-logo {
+  color: white;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  left: 150px;
+}
+.disclaimer-logo:hover {
+  height: 120px;
+  width: 120px;
+}
+.footer {
+  background-color: #0d1b2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 99.9%;
+  height: 300px;
+  z-index: 1;
+  box-shadow: 0px 0px 2px 2px;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padarduck</title>
+    <link rel="icon" type="image/png" href="img/Padarduck.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "y26d5RGj3HqhCDXja",
+        });
+      })();
+    </script>
+  </head>
+
+  <body>
+    <!--Website-->
+    <div class="Big-Duck">
+
+      <!--Header Section-->
+      <div class="header">
+        <img src="img/Padarduck.png" class="logo" />
+        <img src="img/icons8-ente-90 (1).png" class="logos" />
+        <a class="a" href="#about_us">about us</a>
+        <img src="img/icons8-lernen-100.png" class="logos" />
+        <a class="a" href="#Skill">skills</a>
+        <img src="img/icons8-contact-list-96.png" class="logos" />
+        <a class="a" href="#contact_us">contact us</a>
+      </div>
+
+      <!--Welcome-->
+      <div class="bosscontainer">
+        <h1 class="title-welcome">WELCOME.</h1>
+
+        <div class="container">
+          <div class="box1">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+              src="https://lottie.host/a10ea615-606c-4e9c-8bfc-7119528bd584/leWLE2OZCe.json"
+              background="##000000"
+              speed="1"
+              style="width: 425px; height: 425px"
+              loop
+              autoplay
+              direction="1"
+              mode="normal"
+            ></lottie-player>
+          </div>
+          <div class="box2">
+            <h2 class="welcome-message">
+              Welcome to our main website of our service!
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <!--About us Section-->
+      <div class="bosscontainer2" id="about_us">
+        <h1 class="title-about-us">ABOUT US</h1>
+        <div class="container">
+          <div class="box1">
+            <h2>
+              Padarduck is a duo of two experienced professionals, looking for
+              people like you. Web Development can be a torturous process, it
+              can even be one of the most difficult parts of making your
+              business. That’s we we are here to help you and overcome this step
+              to success, with a reliable and quality service for
+              Web-Development.
+            </h2>
+          </div>
+          <div class="box2">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+              src="https://lottie.host/f85b99c4-3c4d-4a82-a463-4f131994bfec/a32vCdpg7Q.json"
+              background="##fff"
+              speed="1"
+              style="width: 425px; height: 425px"
+              loop
+              autoplay
+              direction="1"
+              mode="normal"
+            ></lottie-player>
+          </div>
+        </div>
+      </div>
+
+      <!--Skill Section-->
+      <div class="bosscontainer4" id="Skill">
+        <h1 class="title-Skills">Skills</h1>
+        <h1 class="mini-title-Skills">Front Web-Development</h1>
+        <div class="container">
+          <div class="Skill-box1">
+            <img src="img/html.png" class="Skill-logo">
+            <br>
+          Html
+          </div>
+          <div class="Skill-box2">
+            <img src="img/CSS_logo.png" class="Skill-logo">
+            <br>
+          CSS
+          </div>
+          <div class="Skill-box3">
+            <img src="img/javascript.png" class="Skill-logo-JS">
+            <br>
+          Javascript
+          </div>
+        <div class="Skill-box4">
+          <img src="img/python.png" class="Skill-logo">
+          <br>
+          Python
+        </div>
+        <div class="Skill-box5">
+          <img src="img/powerpoint.png" class="Skill-logo-PP">
+          <br>
+          PowerPoint
+          <div class="extra">(extra)</div>
+        </div>
+        </div>
+      </div>
+
+      <!--Contact Us Section-->
+      <div class="bosscontainer3" id="contact_us">
+        <h1 class="title-about-us">Contact Us</h1>
+         <div class="container">
+          <div class="boxContact2">
+            <h3 class="h333">
+              Massage us
+            </h3>
+            <h3 class="h333">
+              here!
+            </h3>
+          </div>
+          <div class="boxContact">
+               <div>
+                <h5 for="name">Name</h5>
+                <input
+                  type="text"
+                  class="inputfield"
+                  id="name"
+                  placeholder="Enter your name"
+                  />
+                </div>
+                <div>
+                  <h5 for="email">Email</h5>
+                  <input
+                    type="email"
+                    class="inputfield"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div >
+                  <h5 for="message">Message</h5>
+                  <textarea class="inputfield" id="message" rows="3"></textarea>
+                </div>
+                  <button class="learn-more" onclick="sendMail()">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">SEND</span>
+                  </button>
+              </div>
+            </div>
+          </div>
+
+      <!--Bottom Footer-->
+      <div class="footer">
+        <img src="img/Padarduck.png" class="bottom-logo" />
+        <img src="img/icons8-ente-90 (1).png" class="bottom-icon" />
+        <a class="bottom-a" href="#about_us">about us</a>
+        <img src="img/icons8-lernen-100.png" class="bottom-icon" />
+        <a class="bottom-a" href="#Skill">skills</a>
+        <img src="img/icons8-contact-list-96.png" class="bottom-icon" />
+        <a class="bottom-a" href="#contact_us">contact us</a>
+
+        <div class="disclaimer">
+          <a href="disclaimer.html" target="_blank">
+            <img src="img/aufmerksam.png" class="disclaimer-logo"></img>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
